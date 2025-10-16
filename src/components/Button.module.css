@@ -1,0 +1,25 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #00bcd4;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #008c9e;
+  transform: translateY(-2px);
+}
+
+.button svg {
+  transition: transform 0.2s ease;
+}
+
+.button:hover svg {
+  transform: translateX(4px); /* arrow moves right on hover */
+}

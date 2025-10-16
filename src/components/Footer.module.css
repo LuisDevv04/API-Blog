@@ -1,0 +1,17 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.heart {
+  color: #e63946;
+}
